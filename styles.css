@@ -1,0 +1,378 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+}
+
+ol, 
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ------------- Cabecera -------------*/
+
+header{
+    display: flex;
+    background-color: rgba(4, 65, 145, 0.99);
+    align-items: center;
+    justify-content: space-between;
+}
+header a i {
+    color: rgb(245, 13, 36);
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+header nav {
+    height: 80px;
+    float: right;
+  }
+  
+nav ul.menu {
+    float: right;
+  }
+
+nav ul.menu li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  nav ul.menu li a {
+    color: #eee;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 7px;
+  }
+
+
+/* ------------- Acerca de mi -------------*/
+
+.Seccion_1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 5% 25% 5% 25%;
+    text-align: justify;
+}
+
+.Seccion_1 .Acerca_img{
+    display: flex;
+    padding: 5% 5% 5% 5%;
+}
+
+/* ------------- Imagen -------------*/
+.Seccion_2 img{
+    width: 100%;
+}
+
+/* ------------- Trabajos ------------- */
+.Seccion_3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+    padding: 10px 20px 10px;
+}
+
+.Seccion_3 .Trabajos{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+.Seccion_3 .Titulos{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+}
+
+  /* ------------- Encabezado Contacto ------------- */
+  
+  .form-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+
+
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"] ,
+  .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+  
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+
+/* ------------- Formulario ------------- */
+  
+.formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+
+  /* ------------- Campos del Formulario ------------- */
+
+  .form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"] ,
+  .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+  
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+
+/* ------------- Footer ------------- */
+footer{
+    background-color: rgba(4, 65, 145, 0.99);
+    width: 100%;
+
+}
+
+#footer{
+    padding: 1em;
+}
+
+
+h3 {
+    display: block;
+    font-size: 1.7em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+nav{
+    display: block;
+}
+
+#footer nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul a{
+    color: rgb(255, 255, 255);
+}
+#footer nav ul li{
+    margin-top: 0.3em;
+}
+
+footer a i {
+    position: fixed;
+    bottom: 22px;
+    right: 39px;
+}
+
+/* ------------- Estilo del boton MENU ------------- */
+.checkbtn {
+    font-size: 25px;
+    color: rgb(186, 5, 5);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+@media (max-width: 768px) {
+    header {
+        background-color: rgb(5, 251, 124);
+    }
+    .Seccion_1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-self: center;
+        text-align: center;
+    }
+    .Seccion_3 .Titulos {
+        display: flex;
+        flex-wrap: wrap;
+        align-self: center;
+        text-align: center;
+    }
+
+/* ------------- Barra de navegacion ------------- */
+    .checkbtn {
+        display: block;
+    }
+
+    .navbar {
+        height: 0vh;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: #2c3e50;
+        text-align: center;
+        transition: all 0.5s;
+        overflow: hidden;
+      }
+
+      .navbar ul.menu {
+        float: none;
+        display: block;
+        width: 174px;
+        margin: 0 auto;
+        opacity: 0;
+      }
+
+    #encabezado nav ul li a {
+        font-size: 20px;
+    }
+
+/*------------- Cambiar el color cuando se da click -------------*/
+    .navbar ul.menu li a:hover {
+        color: #b59a61;
+      }
+
+/* -------------ACTIVE -------------*/
+    .navbar.active {
+        height: 100vh;
+    }
+
+  .navbar.active ul.menu {
+    opacity: 1;
+  }
+}
